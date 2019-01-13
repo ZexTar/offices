@@ -1,0 +1,8 @@
+.Nav {
+	display: flex;
+	justify-content: space-around;
+}
+.title {
+	display: flex;
+	justify-content: flex-start;
+}

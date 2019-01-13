@@ -4,6 +4,14 @@ const GridView = () => {
 	return (
 		<div>
 			<p>GridView</p>
+			<p>GridView</p>
+			<p>GridView</p>
+			<p>GridView</p>
+			<p>GridView</p>
+			<p>GridView</p>
+			<p>GridView</p>
+			<p>GridView</p>
+			<p>GridView</p>
 		</div>
 	);
 };
