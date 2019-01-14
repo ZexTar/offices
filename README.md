@@ -8,7 +8,14 @@ To use this code as your template do following steps:
 
 2 - ```npm install```
 
-3- ```npm start```
+3 -get your own google API key and put it in ```src/components/Location.js ```:
+```
+export default GoogleApiWrapper({
+	apiKey: 'YOUR_API_KEY',
+})(Location);
+```
+
+4- ```npm start```
 
 To get information for desired company just change API endpoint in ```src/containers/App.js ``` :
 ```javascript
