@@ -29,4 +29,26 @@ componentDidMount() {
 		});
 }
 ```
+This is example of how your API JSON response should look like:
+```
+[
+	{
+		"id": 1,
+		"name": "",
+		"description": "",
+		"latitude": "",
+		"longitude": "",
+		"photo": ""
+	},
+	{
+		"id": 2,
+		"name": "",
+		"description": "",
+		"latitude": "",
+		"longitude": "",
+		"photo": 
+	}
+]
+```
+
 
