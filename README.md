@@ -9,7 +9,7 @@ To use this code as your template do following steps:
 2 - ```npm install```
 
 3 -get your own google API key and put it in ```src/components/Location.js ```:
-```
+```javascript
 export default GoogleApiWrapper({
 	apiKey: 'YOUR_API_KEY',
 })(Location);
