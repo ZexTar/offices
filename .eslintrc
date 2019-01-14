@@ -68,6 +68,7 @@
     "class-methods-use-this": 0,
     "no-nested-ternary": 0,
     "click-events-have-key-events": 0,
-    "no-noninteractive-element-interactions": 0
+    "no-noninteractive-element-interactions": 0,
+    "react/destructuring-assignment": [<enabled>, 'never'],
   }
 }

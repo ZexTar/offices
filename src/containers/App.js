@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Loading from 'react-loading-animation';
 import Navbar from '../components/Navbar/Navbar';
 import ListView from '../components/List/ListView';
 import GridView from '../components/Grid/GridView';
@@ -36,7 +37,7 @@ class App extends Component {
 			<div>
 				{
 					data === '' ? (
-						<p>LOADING</p>
+						<Loading />
 					) : (
 						<div>
 							<Navbar routeChange={routeChange} />

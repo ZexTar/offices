@@ -8,9 +8,9 @@ const ListView = (props) => {
 	return (
 		<div>
 			{
-				data.map((user, i) => (
-					<div>
-						<ListItem data={data[i]} key={data[i].id} />
+				data.map((item, i) => (
+					<div key={data[i].id}>
+						<ListItem data={data[i]} />
 						<hr />
 					</div>
 				))
